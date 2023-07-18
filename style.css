@@ -15,8 +15,15 @@ p{
     background-color: rgba(35,84,146,1);
     text-align: center;
     color: white;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px 0px 0px;
+    display: flex;
+    align-items: center;
 }
+header{
+    width: 80%;
+    margin: auto;
+}
+
 ul{
     list-style: none;
 }
@@ -75,22 +82,19 @@ li a:hover::after,
 li a:focus::after {
   opacity: 1;
   transform: translate3d(0, 0.2em, 0);
-  
 }
 
 /* Scale from center */
 li a::after {
-    opacity 1;
+    opacity: 1;
     transform: scale(0);
     transform-origin: center;
   }
   
 li a:hover::after,
 li a:focus::after{
-    transform: scale(1);
-    
+    transform: scale(1);    
 }
-
 
 /*------------le titre principal------------- */
 
@@ -186,10 +190,14 @@ h1{
     h1,.content h2{
         font-size: calc(30px + 4.5vw);
     }
+    
+
 }
 
 @media screen and (max-width: 800px) {
-
+header{
+    width: 100%;
+}
 .row{
     margin:0em;
 }
