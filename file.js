@@ -5,7 +5,6 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('header nav div h3',{ delay:210, origin:'left'});
-//sr.reveal('header nav ul ,#btn-header',{delay:310, origin:'right'})
 sr.reveal('.main_title h1',{delay:410, origin:'left'})
 sr.reveal('.main_title .content h2',{delay:410, origin:'right'})
 
