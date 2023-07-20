@@ -109,7 +109,8 @@ li a:focus::after{
 h1{
     font-size: 6em;
     font-weight: bold;
-    color: #03a9f4;
+    /*color: #03a9f4;*/
+    color: #a1c4f4;
 }
 .content {
 	position: relative;
